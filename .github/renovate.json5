@@ -1,0 +1,10 @@
+{
+  extends: [
+    "github>lewis-green/renovate-config",
+    "github>lewis-green/renovate-config:automerge-github-actions",
+  ],
+  platform: "github",
+  username: "lewis-green-bot[bot]",
+  gitAuthor: "lewis-green-bot <330372+lewis-green-bot[bot]@users.noreply.github.com>",
+  repositories: ["bjw-s/gh-workflows"],
+}   
